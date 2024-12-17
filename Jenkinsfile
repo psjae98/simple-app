@@ -76,7 +76,7 @@ pipeline {
                     }
                 }
             }
-        }
+        }*/
         
         stage('Run Docker Container') {
             steps {
@@ -96,7 +96,7 @@ pipeline {
             echo "Cleaning up workspace..."
             //cleanWs()
         }
-    }*/
+    }
     
    
 }
